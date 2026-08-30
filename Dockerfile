@@ -1,4 +1,4 @@
-FROM node:lts-slim
+FROM arm32v7/node:22-alpine3.24
 
 # Arguments
 ARG APP_HOME=/home/node/app
